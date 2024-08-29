@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Question App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        #question-container {
+            text-align: center;
+        }
+        #question {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        #next-button {
+            width: 400px;
+            padding: 10px 15px;
+            border: none;
+            background-color: rgb(5, 141, 50);
+            color: white;
+            cursor: pointer;
+            border-radius: 7px;
+        }
+    </style>
+</head>
+<body>
+    <div id="question-container">
+        <h1>Вопрос</h1>
+        <p id="question">Нажмите на кнопку, чтобы получить вопрос.</p>
+        <button id="next-button">Следующий вопрос</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
