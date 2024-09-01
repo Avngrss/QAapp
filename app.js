@@ -43,6 +43,8 @@ const questions = [
   "«Incremental Model» (инкрементная модель)",
   "«Iterative Model» (итеративная или итерационная модель)",
   "«Spiral Model» (спиральная модель)",
+  "Что такое SDLC?",
+  "Жизненный цикл тестирования ПО (STLC - Software Testing Lifecycle)?"
 ];
 
 let usedQuestions = [];
