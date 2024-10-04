@@ -51,6 +51,7 @@ const questions = [
   "«Spiral Model» (спиральная модель)",
   "Жизненный цикл разработки ПО (SDLC (Software Development Life Cycle)?",
   "Жизненный цикл тестирования ПО (STLC - Software Testing Lifecycle)?",
+  "Мобильное тестирвоание?Виды мобильных приложений?Их особенности?Принципы мобильного тестирования?",
 ];
 
 let usedQuestions = [];
